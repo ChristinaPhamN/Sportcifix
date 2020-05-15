@@ -1,0 +1,160 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*---------------------------------------
+    TYPOGRAPHY              
+ -----------------------------------------*/
+
+ h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    line-height: inherit;
+}
+
+h1 {
+    color: #252525;
+    font-size: 3em;
+    line-height: 50px;
+}
+
+h2 {
+    color: #353535;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+h3,
+h3 a {
+    color: #454545;
+}
+
+p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+.presentation {
+    width: 75%;
+    /* horizonaly center */
+    margin: auto;
+
+
+    /** need to make elements veriacally aligned with in its div | align-items: center; **/
+}
+
+
+
+
+.cover {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.about {
+    background: #f9f9f9;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+.basic-info {
+    display: flex;
+    min-height: 30vh;
+    align-items: center;
+}
+
+.basic-info-background {
+    flex: 2;
+}
+
+.basic-info-right {
+    flex: 1;
+}
+
+
+
+
+
+.brief {
+    background: #f9f9f9;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.brief-logo-before img {
+    width: 70%;
+
+    /* soft drop shadow */
+    box-shadow: 3px 3px 8px lightgrey;
+    margin: 0px 0px 0px 0px;
+
+}
+.brief-logo-before p {
+
+    text-align: center;
+}
+
+
+
+
+.process {
+    display: flex;
+    align-items: center;
+    min-height: 30vh;
+}
+
+
+.outcome {
+    background: #f9f9f9;
+}
+
+
+
+
+.outcome-design {
+    margin: 10px 0px 30px 0px;
+}
+
+
+.outcome-design-images {
+    display: flex;
+}
+
+.outcome-design-images img {
+    max-width: 50%;
+    height: auto;
+}
